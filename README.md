@@ -1,3 +1,3 @@
 ## libft introduction
 
-Rewriting c standard library with all functions
+Rewriting C standard library with all functions
