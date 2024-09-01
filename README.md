@@ -1,4 +1,4 @@
-## libft introduction
+# libft
 
 ### Rewriting C standard library
 
