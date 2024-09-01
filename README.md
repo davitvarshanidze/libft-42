@@ -1,5 +1,5 @@
 # libft
-### Open "subject.pdf" and follow it
+### Open <a href="https://github.com/datodotio/libft/blob/main/subject.pdf" target="_blank">subject.pdf</a> and follow it
 
 ### Rewriting C standard library
 
