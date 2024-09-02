@@ -4,8 +4,8 @@
 #include <unistd.h>
 
 #define BUFF_SIZE 100
-#define MALLCHECK(x)                                                           \
-  if (!x)                                                                      \
+#define MALLCHECK(x) \
+  if (!x)            \
     return (-1);
 #define IS_SPACE(x) (x == ' ' || x == '\t' || x == '\r' || x == '\f')
 

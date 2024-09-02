@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int main(int argc, char *argv[])
+int main()
 {
-  return EXIT_SUCCESS;
+  return 0;
 }
