@@ -4,6 +4,6 @@
 #include <unistd.h>
 
 void *memset(void *s, int c, size_t n);
-void bzero(void *s, size_t len);
+void bzero(void *s, size_t n);
 
 #endif
