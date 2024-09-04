@@ -14,3 +14,13 @@ Purpose: What does the function need to achieve? For example, strlen computes th
 Inputs: What parameters does the function take? Understand the data types and constraints.
 Outputs: What should the function return or modify? Identify return values and side effects.
 Error Handling: What errors need to be handled? For instance, malloc should handle cases where memory allocation fails.
+
+Example: strlen Implementation
+
+Purpose: Compute the length of a null-terminated string.
+
+Inputs: A pointer to the string.
+
+Outputs: An integer representing the length of the string.
+
+Error Handling: Ensure the input pointer is not NULL.
