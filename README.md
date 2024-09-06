@@ -16,11 +16,20 @@ Outputs: What should the function return or modify? Identify return values and s
 Error Handling: What errors need to be handled? For instance, malloc should handle cases where memory allocation fails.
 
 Example: strlen Implementation
-
 Purpose: Compute the length of a null-terminated string.
-
 Inputs: A pointer to the string.
-
 Outputs: An integer representing the length of the string.
-
 Error Handling: Ensure the input pointer is not NULL.
+
+(Plan the Implementation)
+
+Algorithm Design:
+
+Outline the Algorithm: Write down the steps required to perform the function’s task. For strlen, this might be a loop that counts characters until the null terminator is found.
+Consider Edge Cases: Think about special cases like empty strings or very long strings.
+Example for strlen:
+
+Initialize a counter.
+Iterate through each character of the string.
+Increment the counter until the null terminator is encountered.
+Return the counter.
