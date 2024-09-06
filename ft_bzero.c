@@ -6,4 +6,5 @@ void *ft_bzero(void *s, size_t n)
     while (n--) {
         *p++ = 0;
     }
+    return s;
 }
