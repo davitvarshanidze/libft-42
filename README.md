@@ -7,7 +7,7 @@ First read this, to understand how C standard library's functions/modules, etc..
 
 Study the source code of existing implementations like glibc or musl to see how they meet these specifications.
 
-Break Down Each Function
+### Break Down Each Function
 
 Analyze the Function:
 Purpose: What does the function need to achieve? For example, strlen computes the length of a string, while fopen opens a file.
@@ -21,7 +21,7 @@ Inputs: A pointer to the string.
 Outputs: An integer representing the length of the string.
 Error Handling: Ensure the input pointer is not NULL.
 
-Plan the Implementation
+### Plan the Implementation
 
 Algorithm Design:
 
@@ -34,7 +34,8 @@ Iterate through each character of the string.
 Increment the counter until the null terminator is encountered.
 Return the counter.
 
-Implement the Function
+### Implement the Function
+
 Write Code:
 
 Start Simple: Begin with a basic version of the function.
@@ -49,7 +50,7 @@ size_t strlen(const char *str) {
     return length;
 }
 
-Test Thoroughly
+### Test Thoroughly
 
 Create Test Cases:
 
@@ -60,7 +61,7 @@ Example Tests for strlen:
 strlen("hello") should return 5.
 strlen("") should return 0.
 
-Reflect and Iterate
+### Reflect and Iterate
 
 Review and Improve:
 
@@ -68,28 +69,28 @@ Analyze: Review your implementation to ensure it meets the specification and per
 Optimize: Look for potential performance improvements or memory optimizations.
 Example for strlen: Consider the implications of different approaches. For instance, a more advanced implementation might use pointer arithmetic or SIMD instructions for optimization.
 
-Learn from Others
+### Learn from Others
 
 Study Various Implementations:
 
 Compare: Look at how different standard libraries implement the same functions.
 Learn Patterns: Identify common patterns or techniques used in high-quality implementations.
 
-Understand Low-Level Details
+### Understand Low-Level Details
 
 System Interaction:
 
 Explore System Calls: For functions that interact with the operating system (like fopen), understand how system calls work and how they can be used.
 Memory Management: Understand how dynamic memory allocation works at a lower level.
 
-Think in Terms of Abstractions
+### Think in Terms of Abstractions
 
 High-Level Design:
 
 Modularity: Break functions into smaller, manageable parts.
 Encapsulation: Hide implementation details and provide a clear interface.
 
-Practice and Iterate
+### Practice and Iterate
 
 Hands-On Experience:
 
