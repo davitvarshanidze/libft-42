@@ -1,7 +1,6 @@
-#include "libft.h"
 #include <stdio.h>
 
-int main() {
-	printf("ad");
+int main(void) {
+	printf("asd");
 	return 0;
 }
