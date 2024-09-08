@@ -11,5 +11,3 @@ void *ft_memmove(void *dst, const void *src, size_t len);
 void *ft_memchr(const void *s, int c, size_t n);
 
 #endif
-
-qwe
