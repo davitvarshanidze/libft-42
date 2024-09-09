@@ -22,5 +22,6 @@ void *ft_isalpha(int c);
 void *ft_isdigit(int c);
 void *ft_isalnum(int c);
 void *ft_isascii(int c);
+void *ft_isprint(int c);
 
 #endif
