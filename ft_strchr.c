@@ -1,6 +1,6 @@
 #include "libft.h"
 
-void *ft_strchr(const char *str, int c)
+char *ft_strchr(const char *str, int c)
 {
 	while (*str != '\0') {
 		if (*str == (char)c) {
