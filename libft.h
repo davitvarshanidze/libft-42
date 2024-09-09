@@ -20,5 +20,6 @@ void *ft_strncmp(const char *s1, const char *s2, size_t n);
 void *ft_atoi(const char *str);
 void *ft_isalpha(int c);
 void *ft_isdigit(int c);
+void *ft_isalnum(int c);
 
 #endif
