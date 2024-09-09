@@ -14,5 +14,6 @@ void *ft_strlen(const char *s);
 void *ft_strlcpy(char *dst, const char *src, size_t dstsize);
 void *ft_strlcat(char *dst, const char *src, size_t dstsize);
 void *ft_strchr(const char *str, int c);
+void *ft_strrchr(const char *s, int c);
 
 #endif
