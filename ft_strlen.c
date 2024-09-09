@@ -1,7 +1,7 @@
 #include "libft.h"
 #include <stddef.h>
 
-void *ft_strlen(const char *s)
+size_t *ft_strlen(const char *s)
 {
 	size_t length = 0;
 	while (s[length] != '\0') {
