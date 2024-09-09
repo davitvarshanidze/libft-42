@@ -15,7 +15,7 @@ void *ft_strlcpy(char *dst, const char *src, size_t dstsize);
 void *ft_strlcat(char *dst, const char *src, size_t dstsize);
 void *ft_strchr(const char *str, int c);
 void *ft_strrchr(const char *s, int c);
-void *ft_strnstr(const char *big, const char *little, size_t len);
+char *ft_strnstr(const char *big, const char *little, size_t len);
 int *ft_strncmp(const char *s1, const char *s2, size_t n);
 int *ft_atoi(const char *str);
 int *ft_isalpha(int c);
