@@ -26,6 +26,6 @@ int *ft_isprint(int c);
 int *ft_toupper(int c);
 int *ft_tolower(int c);
 int *ft_calloc(size_t num_elements, size_t element_size);
-char *ft_strdup(const char *s1);
+char *ft_strdup(const char *str);
 
 #endif
