@@ -1,8 +1,8 @@
-# 🧠 TinyLibc – A Simple Reimplementation of Standard C Library Functions
+# libft
 
 This project is a personal rewrite of selected functions from the C Standard Library (`libc`), created for educational purposes and deeper understanding of how common low-level operations work under the hood.
 
-## 📂 Implemented Functions
+## Implemented Functions
 
 The following functions have been reimplemented:
 
@@ -38,7 +38,7 @@ The following functions have been reimplemented:
 ### Others
 - `ft_atoi`
 
-## ⚙️ How to Use
+## How to Use
 
 You can include the `.c` files in your C project and compile them with your existing build system (e.g., Makefile, CMake, etc.).
 
