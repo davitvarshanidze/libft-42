@@ -1,6 +1,6 @@
 # libft
 
-This project is a personal rewrite of selected functions from the C Standard Library (`libc`), created for educational purposes and deeper understanding of how common low-level operations work under the hood.
+This project is a personal rewrite of selected functions from the C Standard Library (`libc`), created for educational purposes and deeper understanding of how common low-level operations work under the hood
 
 ## Implemented Functions
 
